@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Golden Child</string>
+    <string name="tap_second_close_msg">Click again to exit the app</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="find_location_permission_deny">You have denied location permission, which will affect the use of the app!</string>
+    <string name="go_to_find_loaction_tip">该应用依赖于定位权限，请打开定位权限</string>
+    <string name="not_support_ble">Your device does not support ble,Whether exist？</string>
+    <string name="gps_not_open_message">GPS does not open,can not use bluetooth.</string>
+    <string name="not_open_bluttooth">Please check your bluetooth</string>
+    <string name="light">Light</string>
+    <string name="reaction_mode">Reaction Mode</string>
+    <string name="rotate">Rotate</string>
+    <string name="scan">Scan</string>
+    <string name="camera_open_fail">camera open fail</string>
+    <string name="image_picker">Image</string>
+    <string name="not_allow_read_write_disk">Does not have access sdcard permission</string>
+    <string name="str_scaning">connecting...</string>
+    <string name="str_open_gps">After android 6,connecting bluetooth need GPS location,open now?</string>
+    <string name="str_reconnect">reconnect?</string>
+    <string name="str_not_connect">Disconnected!</string>
+    <string name="crop">Crop</string>
+    <string name="check_camera_permission">check camera permission.</string>
+    <string name="load_image">loading image...</string>
+    <string name="not_write_extern_permission">Does not have access sdcard permission.</string>
+    <string name="re_scan">Connect fail,reconnect?</string>
+</resources>

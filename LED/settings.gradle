@@ -1,0 +1,22 @@
+include ':app'
+
+//include ':baselibary'
+//include ':volley'
+//include ':swipetoloadlayout'
+//include ':base-adapter-rv'
+//include ':smallhttp'
+//include ':imageloader'
+include ':commonutil'
+include ':matisse'
+include ':lib-zxing'
+
+//project(':baselibary').projectDir = new File('../libary/baselibary')
+//project(':volley').projectDir = new File('../libary/ThirdLibary/volley')
+//project(':base-adapter-rv').projectDir = new File('../libary/ThirdLibary/base-adapter-rv')
+//project(':swipetoloadlayout').projectDir = new File('../libary/ThirdLibary/swipetoloadlayout')
+//project(':smallhttp').projectDir = new File('../libary/ThirdLibary/smallhttp')
+//project(':imageloader').projectDir = new File('../libary/ThirdLibary/imageloader')
+project(':commonutil').projectDir = new File('../libary/ThirdLibary/commonutil')
+project(':matisse').projectDir = new File('../libary/ThirdLibary/matisse')
+project(':lib-zxing').projectDir = new File('../libary/ThirdLibary/lib-zxing')
+

@@ -1,0 +1,18 @@
+include ':app'
+
+include ':baselibary'
+include ':volley'
+include ':swipetoloadlayout'
+include ':base-adapter-rv'
+include ':smallhttp'
+include ':imageloader'
+include ':basetool'
+
+project(':baselibary').projectDir = new File('../libary/baselibary')
+project(':volley').projectDir = new File('../libary/ThirdLibary/volley')
+project(':base-adapter-rv').projectDir = new File('../libary/ThirdLibary/base-adapter-rv')
+project(':swipetoloadlayout').projectDir = new File('../libary/ThirdLibary/swipetoloadlayout')
+project(':smallhttp').projectDir = new File('../libary/ThirdLibary/smallhttp')
+project(':imageloader').projectDir = new File('../libary/ThirdLibary/imageloader')
+project(':basetool').projectDir = new File('../libary/ThirdLibary/basetool')
+

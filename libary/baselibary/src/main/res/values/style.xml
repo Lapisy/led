@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--activity设置activity透明-->
+    <!--parent="Theme.AppCompat"  必须加上这个，否则报错-->
+    <style name="Transparent" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+
+    <!--edittext下划线的颜色-->
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorAccent">@color/colorPrimary</item>-->
+        <!-- AppCompatEditText默认状态状态设置底线颜色 -->
+        <item name="colorControlNormal">#3F51b5</item>
+        <!-- AppCompatEditText选择的底线颜色 -->
+        <item name="colorControlActivated">#c6174e</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BaseLibary</string>
+    <string name="web_view_title_left">返回</string>
+</resources>

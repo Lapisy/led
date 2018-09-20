@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grary"
+    android:orientation="vertical"
+    tools:context="led.lapisy.com.activity.LightActivity">
+
+    <include layout="@layout/title_bar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/dimen_25"
+        android:background="@color/grary"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!--<led.lapisy.com.view.CircularSlider-->
+            <!--android:id="@+id/cs_alpha_choice"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:padding="30dp"-->
+            <!--app:border_gradient_colors="#f05151;#4a90e2;#4a90e2"-->
+            <!--app:border_thickness="10dp"-->
+            <!--app:thumb_image="@drawable/ic_light_slide"-->
+            <!--app:thumb_size="28dp" />-->
+
+            <led.lapisy.com.view.colorpickerview.ColorPickerView
+                android:id="@+id/colorPickerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginStart="64dp"
+                android:layout_weight="1"
+                android:visibility="visible"
+                app:palette="@drawable/ic_color_palette" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dimen_16"
+                android:layout_marginStart="@dimen/dimen_16"
+                android:max="100"
+                android:maxHeight="8dp"
+                android:min="0"
+                android:minHeight="8dp"
+                android:progressDrawable="@drawable/seekbar_drawable"
+                android:splitTrack="false"
+                android:thumb="@drawable/ic_thumb_img" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_48"
+            android:orientation="vertical">
+
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginBottom="@dimen/dimen_24"-->
+            <!--android:layout_marginTop="@dimen/dimen_24"-->
+            <!--android:gravity="center"-->
+            <!--android:text="Profiles"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="18sp" />-->
+
+            <GridView
+                android:id="@+id/gv_light_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="4"></GridView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

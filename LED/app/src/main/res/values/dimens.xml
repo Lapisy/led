@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_400">400dp</dimen>
+    <dimen name="fontsize_15">15sp</dimen>
+    <dimen name="fontsize_18">18sp</dimen>
+    <dimen name="fontsize_19">19sp</dimen>
+    <dimen name="fontsize_20">20sp</dimen>
+    <dimen name="fontsize_24">24sp</dimen>
+    <dimen name="grid_expected_size">21</dimen>
+    <dimen name="dimen_350">350dp</dimen>
+    <dimen name="dimen_64">64dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+
+</resources>

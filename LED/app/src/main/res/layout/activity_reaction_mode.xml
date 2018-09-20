@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grary"
+    android:orientation="vertical"
+    tools:context="led.lapisy.com.activity.ReactionModeActivity">
+
+    <include layout="@layout/title_bar_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_toLeftOf="@id/vsb_color"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="@dimen/dimen_350"
+            android:layout_marginRight="@dimen/dimen_16"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="100"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center"
+                android:text="50"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|bottom"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize_15" />
+        </LinearLayout>
+
+        <led.lapisy.com.view.VerticalSeekBar
+            android:id="@+id/vsb_color"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dimen_350"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>

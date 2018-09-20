@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PayPsdInputView">
+
+        <!--密码框自定义View-->
+        <attr name="maxCount" format="integer"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="bottomLineColor" format="color"/>
+        <!--实心圆半径-->
+        <attr name="radius" format="dimension"/>
+        <attr name="divideLineWidth" format="dimension"/>
+        <attr name="divideLineColor" format="color"/>
+        <!--矩形边框的圆角-->
+        <attr name="rectAngle" format="dimension"/>
+        <!--输入获得焦点的颜色-->
+        <attr name="focusedColor" format="color"/>
+        <attr name="passwordType" format="enum">
+            <enum name="weChat" value="0"/>
+            <enum name="bottomLine" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

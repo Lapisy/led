@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/lapisy/dev/anroid_work/led/libary/ThirdLibary/matisse/src/main/assets"/><source path="/Users/lapisy/dev/anroid_work/led/libary/ThirdLibary/matisse/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/lapisy/dev/anroid_work/led/libary/ThirdLibary/matisse/src/release/assets"/></dataSet></merger>
